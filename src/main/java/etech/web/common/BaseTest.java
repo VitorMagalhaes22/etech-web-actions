@@ -1,9 +1,7 @@
-package dev.etech.automation.web.common;
+package etech.web.common;
 
-import dev.etech.automation.web.interfaces.AplicacaoWeb;
-import io.github.bonigarcia.wdm.WebDriverManager;
+import etech.web.interfaces.AplicacaoWeb;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;

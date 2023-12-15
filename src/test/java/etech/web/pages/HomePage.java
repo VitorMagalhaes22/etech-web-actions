@@ -1,4 +1,4 @@
-package dev.etech.automation.web.pages;
+package etech.web.pages;
 
 import org.openqa.selenium.By;
 

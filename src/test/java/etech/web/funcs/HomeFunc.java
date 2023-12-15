@@ -1,7 +1,7 @@
-package dev.etech.automation.web.funcs;
+package etech.web.funcs;
 
-import dev.etech.automation.web.common.BaseTest;
-import dev.etech.automation.web.pages.HomePage;
+import etech.web.common.BaseTest;
+import etech.web.pages.HomePage;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
 public class HomeFunc extends BaseTest {

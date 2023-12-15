@@ -1,7 +1,7 @@
-package dev.etech.automation.web.configuration;
+package etech.web.configuration;
 
-import dev.etech.automation.web.common.BaseTest;
-import dev.etech.automation.web.enums.Web;
+import etech.web.common.BaseTest;
+import etech.web.enums.Web;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;

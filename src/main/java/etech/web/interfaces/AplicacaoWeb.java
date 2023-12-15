@@ -1,4 +1,4 @@
-package dev.etech.automation.web.interfaces;
+package etech.web.interfaces;
 
 import org.openqa.selenium.WebDriver;
 

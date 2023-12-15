@@ -1,8 +1,8 @@
-package dev.etech.automation.web.funcs;
+package etech.web.funcs;
 
-import dev.etech.automation.web.common.BaseTest;
-import dev.etech.automation.web.pages.LoginPage;
-import org.openqa.selenium.support.ui.ExpectedConditions;
+
+import etech.web.common.BaseTest;
+import etech.web.pages.LoginPage;
 
 public class LoginFunc extends BaseTest {
 

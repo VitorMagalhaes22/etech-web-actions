@@ -1,6 +1,6 @@
-package dev.etech.automation.web.steps;
+package etech.web.steps;
 
-import dev.etech.automation.web.funcs.LoginFunc;
+import etech.web.funcs.LoginFunc;
 import io.cucumber.datatable.DataTable;
 import io.cucumber.java.pt.Dado;
 import io.cucumber.java.pt.E;

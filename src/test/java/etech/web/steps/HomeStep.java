@@ -1,6 +1,6 @@
-package dev.etech.automation.web.steps;
+package etech.web.steps;
 
-import dev.etech.automation.web.funcs.HomeFunc;
+import etech.web.funcs.HomeFunc;
 import io.cucumber.java.pt.Entao;
 import io.cucumber.java.pt.Quando;
 import org.junit.Assert;

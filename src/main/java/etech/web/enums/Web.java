@@ -1,6 +1,6 @@
-package dev.etech.automation.web.enums;
+package etech.web.enums;
 
-import dev.etech.automation.web.interfaces.AplicacaoWeb;
+import etech.web.interfaces.AplicacaoWeb;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
