@@ -1,5 +1,8 @@
 name: Hello world
 on:
+  push:
+    branches:
+      - "master"
   workflow_dispatch:
 jobs:
   hello-world:
