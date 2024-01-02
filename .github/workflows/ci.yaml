@@ -1,8 +1,7 @@
 name: Hello world
 on:
-  push:
-    branches:
-      - "master"
+  pull_request:
+    types: ["opened", "reopened", "synchronize"]
   workflow_dispatch:
 jobs:
   hello-world:
