@@ -13,7 +13,8 @@ public class HomeFunc extends BaseTest {
     }
 
     public void clicarCampoSair(){
-        wait.until(ExpectedConditions.invisibilityOfElementLocated(homePage.getLoading()));
+        wait.until(ExpectedConditions.invisibilityOf(driver.findElement(homePage.getLoading())));
+        wait.until(ExpectedConditions.elementToBeClickable(homePage.getCampoSair()));
         driver.findElement(homePage.getCampoSair()).click();
     }
 
