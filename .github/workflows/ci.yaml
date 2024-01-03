@@ -3,9 +3,10 @@ on:
   push:
     branches:
       - "master"
-  workflow_dispatch:
   schedule:
     - cron: "30 19 * * 3"
+  workflow_dispatch:
+
 jobs:
   hello-world:
     runs-on: ubuntu-latest
