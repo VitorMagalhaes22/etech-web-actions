@@ -1,7 +1,10 @@
 name: Hello world
 on:
-  pull_request:
-    types: ["opened", "reopened", "synchronize"]
+  push:
+    branches:
+      - "master"
+  schedule:
+    - cron: "* * * * *"
   workflow_dispatch:
 jobs:
   hello-world:
