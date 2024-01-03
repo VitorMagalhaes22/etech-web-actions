@@ -1,11 +1,7 @@
 name: Hello world
 on:
-  push:
-    branches:
-      - "master"
-  workflow_dispatch:
-  schedule:
-    - cron: "* * * * *"
+  pull_request:
+    types: [ "opened", "reopened", "synchronize" ]
 jobs:
   hello-world:
     runs-on: ubuntu-latest
