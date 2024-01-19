@@ -3,7 +3,7 @@ on:
   pull_request:
     types: ["opened", "reopened", "synchronize"]
   schedule:
-    - cron: "0 9 * * 1,3,5"
+    - cron: "*/5 * * * *"
   workflow_dispatch:
 jobs:
   hello-world:
