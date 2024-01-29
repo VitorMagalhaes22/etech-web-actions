@@ -10,5 +10,15 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Escrever hello world no terminal
-        run: echo "Hello world!"
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Maven Action
+        uses: s4u/setup-maven-action@v1.11.0
+        with:
+          java-version: 18
+          maven-version: 3.9.5
+
+      - name: Execute e2e tests
+        run: mvn clean install
+
