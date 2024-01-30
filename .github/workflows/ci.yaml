@@ -1,4 +1,4 @@
-name: Hello world
+name: Execute e2e tests
 on:
   pull_request:
     types: ["opened", "reopened", "synchronize"]
@@ -6,7 +6,7 @@ on:
     # - cron: "*/5 * * * *"
   workflow_dispatch:
 jobs:
-  hello-world:
+  e2e-tests:
     runs-on: ubuntu-latest
 
     steps:
