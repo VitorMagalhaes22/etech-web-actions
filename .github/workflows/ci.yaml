@@ -16,7 +16,7 @@ jobs:
       - name: Setup Maven Action
         uses: s4u/setup-maven-action@v1.11.0
         with:
-          java-version: 18
+          java-version: 17
           maven-version: 3.9.5
 
       - name: Execute e2e tests
@@ -41,7 +41,7 @@ jobs:
           allure_history: allure-history
 
       - name: Deploy report to Github Pages
-        if: always()
+        if: always  ()
         uses: peaceiris/actions-gh-pages@v2
         env:
           PERSONAL_TOKEN: ${{ secrets.TOKEN }}
