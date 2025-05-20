@@ -4,13 +4,9 @@ on:
     types: [ "opened", "reopened", "synchronize" ]
     # schedule:
     # - cron: "*/5 * * * *"
-
-
   workflow_dispatch:
 jobs:
   mvn-run:
     uses: VitorMagalhaes22/workflow-calls/.github/workflows/java-e2e-testes.yaml@main
-    with:
-      java_version: 17
     secrets:
       git_token: ${{ secrets.TOKEN }}
