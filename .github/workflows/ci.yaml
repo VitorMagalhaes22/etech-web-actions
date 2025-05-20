@@ -4,6 +4,7 @@ on:
     types: [ "opened", "reopened", "synchronize" ]
     # schedule:
     # - cron: "*/5 * * * *"
+
   workflow_dispatch:
 jobs:
   mvn-run:
