@@ -1,0 +1,11 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"  Com essa funcionalidade iremos realizar o login de um usuário cadastrado na aplicação
+
+  Como um usuário cadastrado
+  Eu preciso inserir dados cadastrais
+  Para o login ser efetuado com sucesso","42812","Validar o login na aplicação","","Sat May 24 15:20:25 GMT 2025","passed","Sat May 24 15:21:08 GMT 2025","","Login","Validar o login na aplicação",""
+"  Com essa funcionalidade iremos realizar o logout de um usuário cadastrado na aplicação
+
+  Como um usuário cadastrado
+  Eu preciso clicar no campo ""Sair""
+  Para o logout ser efetuado com sucesso","2395","Validar o logout na aplicação","","Sat May 24 15:21:08 GMT 2025","passed","Sat May 24 15:21:10 GMT 2025","","Logout","Validar o logout na aplicação",""
