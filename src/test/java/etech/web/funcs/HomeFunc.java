@@ -6,20 +6,20 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 
 public class HomeFunc extends BaseTest {
 
-    HomePage homePage = new HomePage();
+    HomePage homePage = new HomePage(driver);
 
-    public String getTitleNome(){
-        return driver.findElement(homePage.getTitleNome()).getText();
+    public String getTitleNome() {
+        return homePage.getTitleNome().getText();
     }
 
-    public void clicarCampoSair(){
-        wait.until(ExpectedConditions.invisibilityOf(driver.findElement(homePage.getLoading())));
+    public void clicarCampoSair() {
+        wait.until(ExpectedConditions.invisibilityOf(homePage.getLoading()));
         wait.until(ExpectedConditions.elementToBeClickable(homePage.getCampoSair()));
-        driver.findElement(homePage.getCampoSair()).click();
+        homePage.getCampoSair().click();
     }
 
-    public String getCampoProcura(){
-        return driver.findElement(homePage.getCampoProcura()).getText();
+    public String getCampoProcura() {
+        return homePage.getCampoProcura().getText();
     }
 
 
