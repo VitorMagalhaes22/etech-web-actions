@@ -1,0 +1,1 @@
+[{"uid":"360372f7b19bbd6f","name":"Validar o login na aplicação","time":{"start":1748103461246,"stop":1748103477204,"duration":15958},"status":"passed","severity":"normal"},{"uid":"899f386d7925c0cd","name":"Validar o logout na aplicação","time":{"start":1748103477296,"stop":1748103479917,"duration":2621},"status":"passed","severity":"normal"}]
